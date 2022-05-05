@@ -1,0 +1,32 @@
+.popup__close {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: none;
+    background: none;
+    object-fit: cover;
+    position: absolute;
+    right: -38px;
+    top: -38px;
+    background-image: url(../../../images/Close_Icon.svg);
+}
+
+
+@media screen and (max-width: 550px) {
+    .popup__close {
+        background-size: contain;
+        width: 20px;
+        height: 20px;
+        min-height: 20px;
+        min-width: 20px;
+        right: 0;
+        top: -38px;
+    }
+}
+
+.popup__close:hover {
+    fill: #FFFFFF;
+    opacity: 0.6;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
