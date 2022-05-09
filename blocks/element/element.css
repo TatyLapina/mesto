@@ -4,3 +4,13 @@
     border-radius: 10px;
     background-color: #ffffff;
 }
+.element:last-child {
+    margin-bottom: 66px;
+}
+
+@media screen and (max-width: 550px) {
+    .element:last-child {
+      margin-bottom: 48px;
+    }
+  
+  }

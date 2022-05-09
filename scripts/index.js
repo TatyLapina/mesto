@@ -1,5 +1,5 @@
 // Подключение pop-up
-const popupOpenBtn = document.querySelector('.profile__edit-button_popup');
+const popupOpenBtn = document.querySelector('.profile__edit-button');
 const popup = document.querySelector('.popup');
 const popupCloseBtn = document.querySelector('.popup__close');
 

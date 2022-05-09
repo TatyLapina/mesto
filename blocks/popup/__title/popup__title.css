@@ -1,6 +1,7 @@
 .popup__title {
 
-    width: 76.74%;
+    width: 100%;
+    max-width: 330px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
@@ -13,9 +14,9 @@
 
 @media screen and (max-width: 550px) {
     .popup__title {
-        width: 84.39%;
+        max-width: 238px;
         font-size: 18px;
         line-height: 22px;
-        margin-bottom: 75px;
+        margin: 25px 22px 75px;
     }
 }
