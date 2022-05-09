@@ -16,5 +16,5 @@
 }
 
 .element__icon:active {
-    background-image: url(../../../images/Heart_black.svg)
+    background-image: url(../../../images/Heart_black.svg);
 }
